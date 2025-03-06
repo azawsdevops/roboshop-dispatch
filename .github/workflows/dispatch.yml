@@ -9,7 +9,7 @@ on:
       VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
 jobs:
   ci:
-    uses: azawsdevops/github-reusable-modules/.github/workflows/ci.yaml@main
+    uses: azawsdevops/github-reusable-modules/.github/workflows/ci-main-branch.yaml@main
     with:
       component: Dispatch
       appType: none
