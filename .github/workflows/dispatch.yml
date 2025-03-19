@@ -11,10 +11,10 @@ jobs:
   ci:
     uses: azawsdevops/github-reusable-modules/.github/workflows/ci-main-branch.yaml@main
     with:
-      component: Dispatch
+      component: dispatch
       appType: none
   deploy:
     uses: azawsdevops/github-reusable-modules/.github/workflows/deploy.yaml@main
     with:
-      component: Dispatch
+      component: dispatch
       
